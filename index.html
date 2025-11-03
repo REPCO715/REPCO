@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="REPCO: Real Estate Property Cooperative. Ethical investing in Waupaca, Waushara, and Portage Counties, WI. Helping families flow forward since 2012.">
+    <title>REPCO | Real Estate Property Cooperative – Flow with Purpose</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; background: linear-gradient(to bottom, #e8f4f8, #f0f8f0); color: #333; }
+        header { background: #2c5530; color: white; padding: 1rem; text-align: center; position: relative; overflow: hidden; }
+        header::after { content: ''; position: absolute; bottom: 0; left: 0; width: 100%; height: 2px; background: linear-gradient(to right, transparent, #4a9c7a, transparent); animation: wave 3s ease-in-out infinite; }
+        @keyframes wave { 0%, 100% { transform: translateX(-100%); } 50% { transform: translateX(100%); } }
+        nav { background: rgba(44, 85, 48, 0.9); padding: 0.5rem; }
+        nav ul { list-style: none; display: flex; justify-content: center; margin: 0; padding: 0; }
+        nav li { margin: 0 1rem; }
+        nav a { color: white; text-decoration: none; font-weight: bold; }
+        section { padding: 2rem; max-width: 1200px; margin: 0 auto; }
+        .hero { text-align: center; background: url('https://images.unsplash.com/photo-1600692868800-1377a10261ca?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHdpc2NvbnNpbiUyMHJpdmVyfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=500') center/cover; color: white; padding: 4rem 2rem; } /* Replace with actual image */
+        .hero h1 { font-size: 3rem; margin: 0; }
+        .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+        .service-card { background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .stories { background: #f8f9fa; }
+        .story { margin-bottom: 2rem; }
+        form { display: grid; gap: 1rem; max-width: 500px; margin: 0 auto; }
+        input, textarea, button { padding: 0.75rem; border: 1px solid #ccc; border-radius: 4px; }
+        button { background: #4a9c7a; color: white; cursor: pointer; }
+        footer { background: #2c5530; color: white; text-align: center; padding: 1rem; }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>REPCO: Real Estate Property Cooperative</h2>
+        <p>Est. 2012 | Waupaca, WI | Flowing Forward Together</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#outreach">Outreach Rivers</a></li>
+            <li><a href="#contact">Connect</a></li>
+        </ul>
+    </nav>
+    <section id="home" class="hero">
+        <h1>Flow with Purpose</h1>
+        <p>In the heart of Wisconsin's rivers—Waupaca, Waushara, Portage—we turn properties into partnerships. Since 2012, REPCO has been more than real estate: a cooperative vision where every deal lifts families, sustains communities, and envisions a future of shared prosperity.</p>
+        <button onclick="scrollTo('contact')">Start Your Flow</button>
+    </section>
+    <section id="about">
+        <h2>Our Visionary Roots</h2>
+        <p>Born in 2012 from the lessons of economic tides, REPCO was founded by kind-hearted visionaries who saw real estate not as transactions, but as lifelines. In Waupaca's welcoming waters, we began helping neighbors navigate foreclosures, tax burdens, and inheritances—before banks could dam the flow. Today, as a true cooperative, we pool expertise to acquire, revitalize, and redistribute properties ethically, always prioritizing people over profit. Our mantra: Properties should nourish, like the rivers that carve our landscapes.</p>
+        <blockquote>"Decent humans making smart waves." – REPCO Founders</blockquote>
+    </section>
+    <section id="services">
+        <h2>Our Cooperative Pathways</h2>
+        <div class="services">
+            <div class="service-card">
+                <h3>Commercial Havens</h3>
+                <p>Acquire and rent vibrant spaces that anchor communities—quick, fair closes for owners ready to pass the torch.</p>
+            </div>
+            <div class="service-card">
+                <h3>Home Renewals</h3>
+                <p>Rescue homes via sheriff sales, breathe new life through thoughtful remodels, and resell to families seeking stability.</p>
+            </div>
+            <div class="service-card">
+                <h3>Land Legacies</h3>
+                <p>Subdivide large parcels sustainably, unlocking value while preserving Wisconsin's green veins for generations.</p>
+            </div>
+            <div class="service-card">
+                <h3>Investment Streams</h3>
+                <p>Secure rental properties that provide steady flow—empowering tenants and investors in equal measure.</p>
+            </div>
+        </div>
+    </section>
+    <section id="outreach" class="stories">
+        <h2>Outreach Rivers: Connecting Communities</h2>
+        <p>Like the Waupaca River's gentle curve, our outreach flows through three vital counties—Waupaca (the heart), Waushara (the wild tributary), and Portage (the steady current). We monitor sheriff sales, reach tax-delinquent owners with empathy, and scout divisible lands, always offering bridges: free consults, resource guides, and cooperative buys that protect credit and dreams.</p>
+        <div class="story">
+            <h3>A Family's Turn</h3>
+            <p>In Waushara, we helped the Johnsons split their 20-acre parcel—retaining their homestead while funding their kids' future. "REPCO didn't just buy land; they restored our flow."</p>
+        </div>
+        <div class="story">
+            <h3>Foreclosure Bridge</h3>
+            <p>Pre-auction in Portage, a quick cash offer saved the Garcias from credit ruin. Now, their home rents affordably, circling good back into the community.</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Let's Flow Together</h2>
+        <form action="#" method="post"> <!-- Integrate with Formspree or similar for emails -->
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Tell us about your property journey..." rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>Call: (715) 258-9565 | Email: flow@repco.coop</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 REPCO Real Estate Property Cooperative. All rights reserved. | Waupaca, WI</p>
+    </footer>
+    <script>
+        function scrollTo(id) { document.getElementById(id).scrollIntoView({ behavior: 'smooth' }); }
+    </script>
+</body>
+</html>
